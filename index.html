@@ -213,7 +213,29 @@ section h2 {
     color: #15394e;
     margin-top: 0;
 }
+.tarjeta-evidencia {
+    grid-column: span 2;
+    padding: 0;
+    overflow: hidden;
+}
 
+.tarjeta-evidencia a {
+    display: block;
+}
+
+.tarjeta-evidencia img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta-evidencia .evidencia-pie {
+    padding: 18px 22px;
+}
+
+.tarjeta-evidencia .evidencia-pie strong {
+    color: #15394e;
+}
 .formacion {
     background: #e5edf2;
     max-width: none;
@@ -243,7 +265,9 @@ footer {
 }
 
 @media(max-width: 650px) {
-
+.tarjeta-evidencia {
+    grid-column: span 1;
+}
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -420,6 +444,7 @@ Mecanizado convencional y tornería aplicada a reparación, ajuste dimensional y
 </p>
 
 </div>
+  
 
 <div class="tarjeta">
 
@@ -430,7 +455,20 @@ Identificación de causas raíz, análisis técnico, pruebas funcionales, docume
 </p>
 
 </div>
+<div class="tarjeta tarjeta-evidencia">
 
+<a href="/assets/alineacion-laser-skf-evidencia-web.jpg" target="_blank" rel="noopener noreferrer">
+<img src="/assets/alineacion-laser-skf-evidencia-web.jpg" alt="Evidencia documental de alineación láser SKF realizada por Joel Valle González">
+</a>
+
+<div class="evidencia-pie">
+<strong>Alineación láser SKF · intervención documentada</strong>
+<p>
+Informe real de alineación con trazabilidad de operador, instrumentación utilizada y resultado final aceptado.
+</p>
+</div>
+
+</div>
 </div>
 
 </section>
