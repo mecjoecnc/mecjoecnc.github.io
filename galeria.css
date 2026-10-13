@@ -1,9 +1,7 @@
 /* EXPERIENCIA TECNICA EN IMAGENES */
 
 .galeria-tecnica {
-    backgro
-        
-und: #f3f6f9;
+    background: #f3f6f9;
     max-width: none;
 }
 
@@ -20,7 +18,7 @@ und: #f3f6f9;
 
 .galeria-grid {
     display: grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
 }
 
